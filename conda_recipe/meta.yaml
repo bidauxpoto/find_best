@@ -1,0 +1,19 @@
+{% set name = "find_best" %}
+{% set version = "1.0" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source: 
+  path: ../src
+
+requirements:
+  host:
+    - python>=3
+  run:
+    - python>=3
+
+about:
+  home: https://github.com/bidauxpoto/find_best
+  summary: In a table having a ID_COL column and a SCORE column, for each group of rows with the same value in ID_COL, select the row with the highest SCORE.
