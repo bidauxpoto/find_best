@@ -84,5 +84,5 @@ MYH4        pt_1     A            14.0        192.2
 MYH4        pt_3     B            31.0        201.7
 MYH7B       pt_1     A            34.0        342.6
 MYH7B       pt_2     B            3.0         278.2
-MYH7B	    pt_3	 B  	      39.0	      278.2
+MYH7B       pt_3     B            39.0        278.2
 ```
